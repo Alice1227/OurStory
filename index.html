@@ -9,20 +9,20 @@
   <!-- CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel=stylesheet type="text/css" href="main.css?v=2019040415">
+  <link rel=stylesheet type="text/css" href="main.css?v=2019040423">
 
   <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="main.js?v=20190415"></script>
+  <script type="text/javascript" src="main.js?v=20190422"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">EATING & LUCKY</a>
+    <a class="navbar-brand" href="#home">EATING & LUCKY</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-expanded="false">
       <span class="navbar-toggler-icon"></span>
@@ -31,24 +31,76 @@
     <div class="collapse navbar-collapse justify-content-end" id="menu">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">ARTICLE</a>
+          <a class="nav-link" href="#article">ARTICLE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">ALBUM</a>
+          <a class="nav-link" href="#album">ALBUM</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CALENDAR</a>
+          <a class="nav-link" href="#calendar">CALENDAR</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">LOGIN</a>
+          <a class="nav-link" href="#"><span class="color">1447 DAYS</span></a>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="main-bg">
+  <div class="section main-bg" id="home">
     <div class="main-content">
-      <div class="main-title">Our Story<br>Begins From Here</div>
-      <div class="main-btn">Read More</div>
+      <div class="main-title">Our Story<br>Begins Here...</div>
+      <div class="main-btn">Read More &nbsp;<i class="fas fa-arrow-right"></i></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="section d-flex align-items-center justify-content-center" id="article">
+      <div>
+        <div class="sub-title d-flex flex-column align-items-center">
+          <div>ARTICLE</div>
+          <div class="title-line"></div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center">
+          <div class="item">
+            <img src="test1.jpg" class="item-img"></img>
+            <div class="item-title">宜蘭小旅行</div>
+            <p>間常通出的的放大極候我劇……座間一在，些父法細物，先規是性巴年？我業把分事員科利，作青決合標。</p>
+          </div>
+          <div class="item">
+            <img src="test2.jpg" class="item-img"></img>
+            <div class="item-title">模擬約會</div>
+            <p>間常通出的的放大極候我劇……座間一在，些父法細物，先規是性巴年？我業把分事員科利，作青決合標。</p>
+          </div>
+          <div class="item">
+            <img src="test3.jpg" class="item-img"></img>
+            <div class="item-title">中友制服日</div>
+            <p>間常通出的的放大極候我劇……座間一在，些父法細物，先規是性巴年？我業把分事員科利，作青決合標。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section d-flex align-items-center justify-content-center" id="album">
+      <div>
+        <div class="sub-title d-flex flex-column align-items-center">
+          <div>ALBUM</div>
+          <div class="title-line"></div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-center text-center">
+          <div class="item">
+            <img src="test1.jpg" class="item-img"></img>
+            <div class="item-title">宜蘭小旅行</div>
+            <p>2018.07.16 - 2018.07.18</p>
+          </div>
+          <div class="item">
+            <img src="test2.jpg" class="item-img"></img>
+            <div class="item-title">模擬約會</div>
+            <p>2018.07.16 - 2018.07.18</p>
+          </div>
+          <div class="item">
+            <img src="test3.jpg" class="item-img"></img>
+            <div class="item-title">中友制服日</div>
+            <p>2018.07.16 - 2018.07.18</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
