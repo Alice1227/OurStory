@@ -23,7 +23,8 @@ body {
 
 .content-wrapper {
   min-height: 100vh;
-  padding: 80px 0px;
+  padding-top: 80px;
+  padding-bottom: 60px;
 }
 
 /* navbar */
@@ -51,6 +52,7 @@ body {
 .navbar .navbar-nav .nav-item .day-count {
   color: var(--main-color);
   opacity: 1;
+  cursor: default;
 }
 
 .navbar .navbar-toggler {
