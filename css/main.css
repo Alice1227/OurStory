@@ -7,12 +7,12 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 16px;
 }
 
 body {
   position: relative;
-  font-family: "Microsoft Jhenghei";
+  font-family: 'Nunito Sans', 'Noto Sans TC', sans-serif;
+  font-size: 16px;
   background-color: var(--white);
   color: var(--black);
 }
